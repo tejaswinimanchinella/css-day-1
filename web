@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="bg">
+
+        <h1 class="size">Business<br>Development</h1>
+        <p>Have an idea or inquiry forWaze business development?</p>
+        <br>
+        <button class="btn">Share your ideas</button>
+    </div>
+</body>
+</html>
+
+
+.bg{
+    border-radius: 20px;
+    background-color: rgb(14, 176, 76);
+    width: 500px;
+    margin: 50px auto;
+    padding: 100px 40px;
+    color: rgb(14, 13, 13);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn{
+    background-color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    border-radius: 120px;
+}
+.size{
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login center">
+        <h2 class="desk">flodesk </h2>
+        <p><b>Welcome Back!</b></p>
+        
+        <input type="text" class="input" placeholder="Enter your Email">
+        <input type="password" class="input"  placeholder="Enter your Password">
+        <button class="login-btn">Login to Flodesk</button>
+        <br>
+        <p>Not a member?<u>signup</u></p>
+        <p><u>Forgot your password?</u></p>
+        <p class="sign">By continuing, you agree to Flodesk's <u>terms</u> <br>and acknowledge you've read our <u>privacy policy</u></p>
+    </div>
+</body>
+</html>
+
+
+.login{
+    /* border: 3px solid red;*/
+    padding: 14px 30px;
+    width: 400px;
+    margin: 80px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.input{
+    width: 65%;
+    margin-bottom: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border:1px solid lightgray;
+    font-size: 16px;
+}
+.login-btn{
+    background-color: black;
+    padding: 14px 30px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    width: 50%;
+}
+.desk{
+    font-size: 40px;
+    font-style: normal ;
+}
+.sign{
+    font-size:7px ;
+    font-style: normal;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <img src="india.avif" class="card-img" alt="">
+        <div class="padding">
+            <h3 class="size">Your profile</h3>
+            <p>see how your different profiles appear in google services</p>
+            <img class="image" src="css.jpg" align="left">
+            <img class="image" src="css2.jpg" align="right">
+        </div> 
+        <div class="border">
+            <p class="color" class="padding">See profiles</p>
+        </div>   
+    </div>
+
+</body>
+</html>
+
+
+.card{
+    width: 600px;
+    margin: 50px auto;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.padding{
+    padding: 110px;
+}
+.color{
+    color:rgb(82, 82, 199);
+    font-size: 20px;
+    text-align: left;
+}
+.image{
+    width: 130px;
+    border-radius: 50%;
+}
